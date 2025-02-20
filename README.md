@@ -1,6 +1,6 @@
 
 # DATA_STRUCTURE_EXAM-223018803_MUKAMAUYISENGALEA
-WORK NO2.ESSAY OF C++
+**WORK NO2.ESSAY OF C++(ASSIGNMENT OF OOP)**
 
 **1.INTRODUCTION**
 
@@ -38,7 +38,8 @@ Each of these components plays an important role in ensuring that your program i
 
 
 
-WORK NO 1
+**WORK NO 1(EXAM OF DBMS**
+
 **TOPIC: Project 48: Library Book Reservation and Borrowing System**
 
 Topic 1: Define data structures and discuss their importance in library book reservation and borrowing system.
