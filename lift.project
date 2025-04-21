@@ -1,0 +1,54 @@
+#include<iostream>
+#include<queue>
+using namespace std;
+// class declaration
+class Lift{
+    private:
+       queue<int> requestQueue;
+       int currentFloor;
+    public:
+       Lift(){
+           currentFloor = 1;
+       }
+       void requestFloor(int floor){
+           if (floor<1 || floor>10){
+               cout<<"invalid floor, please choose correct one between 1 and ten floor"<<endl;
+               return;
+           }
+           requestQueue.push(floor);
+           cout<<"floor "<<floor<<" request added"<<endl;
+       }
+       void operateLift(){
+           while(!requestQueue.empty()){
+               int nextFloor = requestQueue.front();
+               requestQueue.pop();
+               cout<<"moving from floor "<<currentFloor<<" to  floor "<<nextFloor<<endl;
+           }
+           cout<<"no floor requested "<<currentFloor<<endl;
+        }
+};
+int main(){
+    Lift Lift;
+    int choice, floor;
+    do{
+        cout<<"\n 1. Request Floor\n2. Operate Lift\n3. Exit\nEnter your choice: ";
+        cin>>choice;
+        switch(choice){
+            case 1:
+            cout<< "enter floor number(1-10): ";
+            cin>>floor;
+            Lift.requestFloor(floor);
+            break;
+            case 2:
+            Lift.operateLift();
+            break;
+            case 3:
+            cout<<"exiting ....."<<endl;
+            break;
+            default:
+            cout<<" invalid choice please try again"<<endl;
+        }
+    }
+    while(choice != 3);
+    return 0;
+}
