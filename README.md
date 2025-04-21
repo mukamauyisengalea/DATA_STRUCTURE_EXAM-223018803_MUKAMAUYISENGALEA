@@ -38,7 +38,7 @@ Each of these components plays an important role in ensuring that your program i
 
 
 
-**WORK NO 1(EXAM OF DBMS**
+**WORK NO 1(EXAM OF DBMS)**
 
 **TOPIC: Project 48: Library Book Reservation and Borrowing System**
 
@@ -95,7 +95,7 @@ An LMS powered by advanced data structures transforms the way libraries operate.
 
 Incorporating data structures into library book reservation and borrowing systems is not just a technical necessity but a strategic advantage. From efficient data handling to prioritization and dynamic management, these features ensure that libraries can meet the demands of modern users. By embracing such innovations, libraries can continue to serve as pillars of knowledge and learning in the digital age. Additionally, the use of advanced algorithms and data organization techniques ensures that library systems remain resilient, adaptable, and user-focused. With these enhancements, libraries can achieve their mission of providing seamless access to information and fostering a culture of learning.
 
-**project 2** (ESSAY OF LIFT PROJECT
+**project 2** (ESSAY OF LIFT PROJECT)
 
 **Essay on Lift Simulation Project in C++**
 
