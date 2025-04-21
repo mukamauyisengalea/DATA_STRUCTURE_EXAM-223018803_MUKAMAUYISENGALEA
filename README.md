@@ -97,10 +97,13 @@ Incorporating data structures into library book reservation and borrowing system
 **project 2**
 
 **Essay on Lift Simulation Project in C++**
+
 **Introduction**
+
 The Lift Simulation Project in C++ is a basic yet insightful demonstration of how real-world systems like elevators can be modeled using object-oriented programming concepts. The project uses fundamental C++ elements such as classes, queues, loops, and conditionals to replicate the functioning of a lift in a building with floors ranging from 1 to 10. It provides a hands-on understanding of how user requests can be managed and executed in a queue-based system, reflecting real-life elevator logic.
 
 **Project Overview**
+
 The project is built around a class named Lift which encapsulates the key functionalities of an elevator system. The class has the following core features:
 
 Private Members:
@@ -127,6 +130,7 @@ The main() function offers a menu-based interface that lets users:
 The lift starts at floor 1 by default. When a user requests a floor, that floor number is added to the queue. Upon selecting the “Operate Lift” option, the lift processes each request sequentially. It simulates moving from the current floor to the requested floor, giving a real-time feel of how lifts respond to user inputs in real buildings.
 
 **Importance of the Project**
+
 Understanding Real-World Applications
 This project gives learners a glimpse into how elevators function behind the scenes, teaching them how software logic controls hardware operations in real life.
 
@@ -143,5 +147,6 @@ Interactive User Interface
 The menu-driven approach improves the user experience and introduces how basic command-line interfaces work, a crucial aspect in many embedded systems and backend services.
 
 **Conclusion**
+
 The Lift Simulation Project is a well-rounded mini-application that combines logic, structure, and practical use of programming constructs. It’s an excellent starting point for beginners who wish to dive into system simulation and C++ programming. Through this project, learners not only gain technical skills but also develop a mindset for modeling real-world problems computationally.
 
